@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Midterm Project</title>
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/en/0/07/Ala-Too_International_University_Seal.png">
     <style>
     table {
         font-family: arial, sans-serif;
         border-collapse: collapse;
         width: 100%;
-      }
+    }
 
     td, th {
         border: 1px solid #dddddd;
@@ -19,13 +20,29 @@
     tr:nth-child(even) {
         background-color: #dddddd;
     }
-    h1 {
+    h1, p {
         text-align: center;
+    }
+
+    #parent {
+        width: 100%;
+        height: 90px;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+    .child {
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        margin-left : 150px;
     }
 </style>
 </head>
 <body>
-    <h1>Students of International Alatoo University</h1>
+    <div id="parent">
+        <img class="child" src="https://upload.wikimedia.org/wikipedia/en/0/07/Ala-Too_International_University_Seal.png" alt="International Alatoo University" style="width:82px;height:82px;">
+        <h1 class="child">Students of International Alatoo University</h1>
+    </div>
     <p>This is the list of the students of the International Alatoo University</p>
     <table class="table table-striped table-responsive-md">
         <thead>
