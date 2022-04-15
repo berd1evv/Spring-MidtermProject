@@ -6,6 +6,8 @@ This is the project for listing students and saving information about them such 
 
 <img src="src/main/resources/templates/img/erd.png" alt="ERD Diagram">
 
+<img src="src/main/resources/templates/img/screenshot.png" alt="Screenshot">
+
 <h2>You can add a new information by using http POST method</h2>
 
 {<br>
